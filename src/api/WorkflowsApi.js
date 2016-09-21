@@ -33,7 +33,7 @@ var WorkflowsApi = function WorkflowsApi() {
     var postBinaryBody = null;
     
     // create path and map variables
-    var basePath = 'http://localhost/api/2.0';
+    var basePath = 'http://localhost/api/2.0:9005';
     // if basePath ends with a /, remove it as path starts with a leading /
     if (basePath.substring(basePath.length-1, basePath.length)=='/') {
     	basePath = basePath.substring(0, basePath.length-1);

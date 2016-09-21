@@ -10,7 +10,7 @@ if (typeof module === 'object' && module.exports) {
 
 //export module
 if ( typeof define === "function" && define.amd ) {
-  define('PostWorkflowOptions', ['jquery''PostWorkflowOptionsDefault'],
+  define('PostWorkflowOptions', ['jquery','PostWorkflowOptionsDefault'],
     function($PostWorkflowOptionsDefault) {
       return PostWorkflowOptions;
    });
@@ -23,7 +23,7 @@ var PostWorkflowOptions = function PostWorkflowOptions() {
   /**
    * datatype: PostWorkflowOptionsDefault
    **/
-  self._default = new post_workflow_options_default();
+  self._default = new PostWorkflow_options_default();
   
   
   self.constructFromObject = function(data) {

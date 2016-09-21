@@ -10,7 +10,7 @@ if (typeof module === 'object' && module.exports) {
 
 //export module
 if ( typeof define === "function" && define.amd ) {
-  define('WorkflowGraph', ['jquery''Array'],
+  define('WorkflowGraph', ['jquery','Array'],
     function($Array) {
       return WorkflowGraph;
    });

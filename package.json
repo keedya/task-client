@@ -1,7 +1,7 @@
 {
-  "name": "rack-hd-2/0",
+  "name": "on-task-client",
   "version": "0.0.1",
-  "description": "Client library of rack-hd-2/0",
+  "description": "Client library of on-task-client",
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"

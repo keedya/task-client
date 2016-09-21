@@ -10,7 +10,7 @@ if (typeof module === 'object' && module.exports) {
 
 //export module
 if ( typeof define === "function" && define.amd ) {
-  define('PostTasks', ['jquery''Array'],
+  define('PostTasks', ['jquery','Array'],
     function($Array) {
       return PostTasks;
    });
