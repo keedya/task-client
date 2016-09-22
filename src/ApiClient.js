@@ -57,7 +57,7 @@
      * @type {String}
      * @default http://localhost/api/2.0
      */
-    this.basePath = 'http://localhost/api/2.0'.replace(/\/+$/, '');
+    this.basePath = 'http://localhost:9005/api/2.0'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
